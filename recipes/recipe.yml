@@ -21,10 +21,12 @@ modules:
     repos:
       copr:
         - atim/starship
+        - theblackdon/dcli-bootc
     install:
       packages:
         - micro
         - starship
+        - dcli-bootc
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
